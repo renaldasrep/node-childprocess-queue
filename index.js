@@ -147,6 +147,10 @@ const newQueue = function newQueue() {
         getCurrentProcesses: function getCurrentProcesses() {
             return PROCESSES.slice(0);
         },
+        
+        getCurrentQueueProcesses: function getCurrentQueueProcesses() {
+            return QUEUE.slice(0);
+        },
 
         getCurrentQueueSize: function getCurrentQueueSize() {
             return QUEUE.length;
